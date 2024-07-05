@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="img/_42232e39-7892-41b9-9f3d-1c6eed890efc.jpg" type="image/x-icon">
+
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <p>Miguel Giraldo</p>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul>
+                <li><a href="#section1">Inicio</a></li>
+                <li><a href="#section2">Servicios</a></li>
+                <li><a href="#section3">Habilidades</a></li>
+                <li><a href="#section4">Educación</a></li>
+                <li><a href="#section5">Proyectos</a></li>
+                <li><a href="#section6">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="section1" id="section1">
+        <div class="container_foto">
+            <img src="img/foto.jpeg" alt="imagen-foto">
+        </div>
+        <div class="descripcion">
+            <h1>Hola soy <p>Miguel</p>
+            </h1>
+            <p class="descripcion2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
+                the 1960s with the release of Letraset sheets containing Lorem</p>
+            <a target="_blank" href="https://github.com/MiguelGiraldo29">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <button class="contacto"><a target="_blank" href="https://web.whatsapp.com/">Contactame</a></button>
+
+        </div>
+
+    </section>
+    <section class="section2" id="section2">
+        <h1>Servicios</h1>
+        <div class="contenedor">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum</p>
+        </div>
+    </section>
+    <section class="section3" id="section3">
+        <h1>Habilidades</h1>
+        <div class="contenedor3">
+            <div class="html">
+                <i class="fa-brands fa-html5"></i>
+                <p>Html</p>
+            </div>
+            <div class="html">
+                <i class="fa-brands fa-css3-alt"></i>
+                <p>CSS</p>
+            </div>
+            <div class="html">
+                <i class="fa-brands fa-js"></i>
+                <p>JavaScript</p>
+            </div>
+            <div class="html">
+                <i class="fa-brands fa-figma"></i>
+                <p>Figma</p>
+            </div>
+            <div class="html">
+                <i class="fa-brands fa-python"></i>
+                <p>Python</p>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="section4" id="section4">
+        <h1>Mi <p>Educación</p>
+        </h1>
+        <div class="timeline-event">
+            <div class="timeline-content">
+                <h2>SENA</h2>
+                <p>Tecnólogo en Analisis y Desarrollo de Software</p>
+                <span>Cursando</span>
+            </div>
+        </div>
+    </section>
+    <section class="section5" id="section5">
+        <h1>Proyectos</h1>
+        <div class="proyectos-contenedor">
+            <div class="proyecto">
+                <img src="img/logo.jpg" alt="Proyecto 1">
+                <h3>Globouquet Family</h3>
+                <p>Pagina informativa de una empresa familiar cuya importancia es darle alegria y color a tus fiestas familiares.</p>
+                <a href="https://github.com/MiguelGiraldo29/proyecto1">Ver Proyecto</a>
+            </div>
+            <!-- Añadir más proyectos según sea necesario -->
+        </div>
+    </section>
+    <section class="section6" id="section6">
+        <h1>Contacto</h1>
+        <form target="_blank" action="https://formspree.io/f/moqgzyoe" method="POST">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="email" placeholder="Tu Email" required>
+            <textarea name="mensaje" placeholder="Tu Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+            <button type="button" id="refreshButton">Refrescar Página</button>
+        </form>
+    </section>
+
+    
+    <footer>
+        <div class="redes">
+            <a>
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a>
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a>
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a>
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </div>
+        <span>Copyrigth Miguel Giraldo | Todos los derechos estan reservados</span>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
